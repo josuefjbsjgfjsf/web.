@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>El huésped de Drácula</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background: linear-gradient(135deg, #1a0000, #4d0000);
+      color: #f2f2f2;
+      font-family: 'Georgia', serif;
+      min-height: 100vh;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .custom-box {
+      background-color: rgba(0, 0, 0, 0.85);
+      padding: 2rem;
+      border: 2px solid #8b0000;
+      border-radius: 1rem;
+      box-shadow: 0 0 20px #8b0000;
+      max-width: 800px;
+      width: 100%;
+      text-align: center;
+    }
+
+    h1 {
+      color: #ff0000;
+      text-shadow: 2px 2px 5px black;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      color: #ddd;
+      font-size: 1.2rem;
+    }
+
+    .btn-dark-red {
+      background-color: #8b0000;
+      color: white;
+      border: none;
+      padding: 0.6rem 1.2rem;
+      font-size: 1rem;
+      margin-top: 1.5rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 0 10px #660000;
+      transition: background-color 0.3s;
+    }
+
+    .btn-dark-red:hover {
+      background-color: #a60000;
+    }
+
+    .dracula-image {
+      border-radius: 1rem;
+      margin-top: 1.5rem;
+      box-shadow: 0 0 15px #500000;
+    }
+
+    footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="custom-box">
+    <h1>El huésped de Drácula</h1>
+    <p>
+      Una historia misteriosa y oscura que se oculta en las sombras de los cuentos de Bram Stoker.
+      Adéntrate en una atmósfera gótica donde el horror y lo sobrenatural se encuentran cara a cara.
+    </p>
+
+    <button class="btn btn-dark-red">
+      Para más información, presione aquí
+    </button>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Dracula1st.jpeg/440px-Dracula1st.jpeg"
+         alt="Portada de Drácula"
+         class="img-fluid dracula-image mt-3">
+  </div>
+
+  <footer class="text-center mt-4">
+    &copy; 2025 Inspirado en Bram Stoker. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
